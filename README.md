@@ -1,4 +1,4 @@
-clone repository "https://github.com/MrTaras123/PP/blob/first_PP" 
+clone repository "https://github.com/MrTaras123/PP" 
 open console
 install pyenv
 pyenv --python 3.6.4
