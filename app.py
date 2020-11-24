@@ -5,16 +5,17 @@ app = Flask(__name__)
 
 @app.route('/')
 def main_page():
-    return "Hello, World!"
+    return "Hello, World ! It`s me Mario)"
 
 
 @app.route('/api/v1/hello-world-10')
 def option():
-    return "Hello, World 10!"
+    return "Hello, World !it`s option №10"
 
 
 with make_server('', 5000, app) as server:
     print("Serving on port 5000...\nVisit http://127.0.0.1:5000/")
+    print("second page : http://127.0.0.1:5000/api/v1/hello-world-10 ")
     server.serve_forever()
 
 
