@@ -1,0 +1,13 @@
+[
+  {
+    "pk": 1,
+    "model": "app.Events_User",
+    "records": [
+      {
+        "id": 1,
+        "user_id":1,
+        "event_id":1
+      }
+    ]
+  }
+]

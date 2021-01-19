@@ -1,0 +1,13 @@
+[
+  {
+    "pk": 1,
+    "model": "app.Event",
+    "records": [
+      {
+        "id_event": 1,
+        "name":"test",
+        "status":["jkjk"]
+      }
+    ]
+  }
+]
